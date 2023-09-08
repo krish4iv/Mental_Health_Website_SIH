@@ -20,9 +20,10 @@ Footer: Includes copyright information and essential links.
 
 1. Clone this repository:
 //Run this in git bash
+
 git clone https://github.com/your-username/mental-health-website.git
 
-2. Open the Mental_health.html file in your web browser to view the website locally.
+3. Open the Mental_health.html file in your web browser to view the website locally.
 
 # Usage
 Explore the website's various sections to access mental health resources and information.
@@ -34,14 +35,17 @@ If you would like to contribute to this project, please follow these steps:
 1. Fork the repository.
 2. Create a new branch for your feature or bug fix:
  //Run this code in git bash
+
 git checkout -b feature-name
 
-3. Make your changes and commit them:
+4. Make your changes and commit them:
  //Run this code in git bash
+
 git commit -m "Add feature-name"
 
-4. Push your changes to your forked repository:
+6. Push your changes to your forked repository:
  //Run this code in git bash
+
 git push origin feature-name
 
 Create a pull request from your forked repository to the main repository.

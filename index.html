@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Mental Health Hub</title>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/3730955.jpg" class="logo">
+            <div class="header-text">
+                <h1>
+                    Hey, this is the header text!
+                </h1>
+                <span class="square"></span>
+                <p>This is the paragraph where you can add anything.</p>
+                <button class="common-btn">Read more</button>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">FEATURES</a></li>
+            <li><a href="#">CHAT-BOT</a></li>
+            <li><a href="#">SURVEY</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">ARTICLES</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menuBtn">
+
+
+<!--about-->
+<section id="about">
+    <div class="about-left-col">
+        <img src="images/about.png">
+    </div>
+    <div class="about-right-col">
+       <div class="about-text">
+        <h1>About Us</h1>
+        <p>write the above section</p><br><br>
+
+        <span class="square"></span>
+        <div class="line">
+            <span class="line-1"></span><br>
+            <span class="line-2"></span><br>
+            <span class="line-3"></span><br>
+        </div>
+        <h2>learning makes it easy</h2>
+        <h3>kuch bhi dal de</h3>
+       </div>
+       </div>
+</section>
+
+
+<!--features-->
+<section id="features">
+    <div class="feature-row">
+
+    <div class="feature-col">
+       <img src="images/pic-1.png">
+       <h4>expert teacher</h4>
+       <p>switch between your devices</p>
+    </div>
+
+    <div class="feature-col">
+        <img src="images/pic-2.png">
+        <h4>learn anywhere</h4>
+        <p>anything</p>
+    </div>
+   
+    <div class="feature-col">
+        <img src="images/pic-3.png">
+        <h4>learn ere</h4>
+        <p>unlimited access</p>
+    </div>
+</div>
+<div class="features-btn">
+    <div class="line">
+        <span class="line-1"></span><br>
+        <span class="line-2"></span><br>
+        <span class="line-3"></span><br>
+    </div>
+    <button class="common-btn">start your journey</button>
+</div>
+</section>
+
+<!--chat-bot-->
+ 
+<section id="chat-bot">
+    <div class="container chat-row">
+    <div class="chat-left-col">
+         <div class="chat-text">
+               <h1>you can use to chat</h1><br><br>
+               <p>Access to an AI-powered chatbot for instant support and information.
+                Information on live chat support or helplines.
+                Instructions on how to use the chatbot or reach out for help.</p>
+                 <div class="line">
+                        <span class="line-1"></span><br>
+                       <span class="line-2"></span><br>
+                <span class="line-3"></span><br>
+                 </div>
+            <button class="common-btn">Chat</button>
+       </div>
+    </div>
+    <div class="chat-right-col">
+        <img src="images/5162744.jpg" >
+    </div>
+    </div>
+</section>
+
+<!--survey-->
+<section id="survey">
+    <div class="container survey-row">
+    <div class="survey-right-col">
+         <div class="survey-text">
+               <h1>you can survey</h1><br><br>
+               <p>Access to an AI-powered chatbot for instant support and information.
+                Information on live chat support or helplines.
+                Instructions on how to use the chatbot or reach out for help.</p>
+                 <div class="line">
+                        <span class="line-1"></span><br>
+                       <span class="line-2"></span><br>
+                <span class="line-3"></span><br>
+                 </div>
+            <button class="common-btn">Start Survey</button>
+       </div>
+    </div>
+    <div class="survey-left-col">
+        <img src="images/offer.png" >
+    </div>
+    </div>
+</section>
+
+
+<!--footer-->
+<section id="footer">
+    <div class="container footer-row">
+        <hr>
+        <div class="footer-left-col">
+            <div class="footer-links">
+                <div class="link-title">
+                    <h4>survey</h4>
+                    <small>ourplan</small>
+                    <small>any</small>
+                </div>
+                <div class="link-title">
+                    <h4>chat-bot</h4>
+                    <small>ourp</small>
+                    <small>any</small>
+                </div>
+                <div class="link-title">
+                    <h4>about</h4>
+                    <small>ourplan</small>
+                    <small>any</small>
+                </div>
+                    <div class="link-title">
+                        <h4>explore</h4>
+                        <small>ourplan</small>
+                        <small>any</small>
+                    </div>
+            </div>
+        </div>
+        <div class="footer-right-col">
+            <div class="copyright-text">
+                    <h4>about</h4>
+                    <small>ourplan</small>
+                    <small>any</small>
+                    <div class="footer-logo">
+                        <img src="images/3730955.jpg">
+                        <button class="common-btn">English</button>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            }
+             else {
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+</body>
+</html>
